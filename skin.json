@@ -173,7 +173,6 @@
   },
   "buttons": {
     "desktopContent": [
-      {"name":"playPause", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":35 },
       {"name":"volume", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":240 },
       {"name":"live", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":35},
       {"name":"timeDuration", "location":"controlBar", "whenDoesNotFit":"drop", "minWidth":145 },
