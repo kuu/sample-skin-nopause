@@ -924,7 +924,6 @@ var ControlBar = React.createClass({displayName: "ControlBar",
 
     return (
       React.createElement("div", {className: controlBarClass, onMouseUp: this.handleControlBarMouseUp, onTouchEnd: this.handleControlBarMouseUp}, 
-        React.createElement(ScrubberBar, React.__spread({},  this.props)), 
 
         React.createElement("div", {className: "oo-control-bar-items-wrapper"}, 
           controlBarItems
@@ -2967,7 +2966,7 @@ OO.plugin("Html5Skin", function (OO, _, $, W) {
 
   if (OO.publicApi && OO.publicApi.VERSION) {
     // This variable gets filled in by the build script
-    OO.publicApi.VERSION.skin_version = "4efbcf973d9bad1a0690e34ed198c108e1fee579";
+    OO.publicApi.VERSION.skin_version = "00b51bb32145973397c303d21533867287077f12";
   }
 
   var Html5Skin = function (mb, id) {

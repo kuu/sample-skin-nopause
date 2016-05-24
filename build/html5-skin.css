@@ -850,7 +850,7 @@
 .oo-player-container .oo-control-bar {
   background: rgba(0, 0, 0, 0.3);
   width: 100%;
-  height: 60px;
+  height: 30px;
   position: relative;
   margin: 0;
   padding: 0 15px;
@@ -868,10 +868,10 @@
     -webkit-flex-direction: row;
     flex-direction: row;
     flex-flow: row nowrap;
-    -webkit-align-items: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    justify-content: center;
+    -webkit-align-items: left;
+    align-items: left;
+    -webkit-justify-content: left;
+    justify-content: left;
     white-space: nowrap; }
     .oo-player-container .oo-control-bar .oo-control-bar-items-wrapper > * {
       line-height: 1 !important; }
@@ -886,7 +886,8 @@
       font-weight: bold;
       font-size: 18px;
       text-align: center;
-      padding: 0 7.5px;
+      margin: auto 0;
+      padding: 6px;
       cursor: pointer; }
     .oo-player-container .oo-control-bar .oo-control-bar-items-wrapper > .oo-control-bar-item:first-child {
       padding-left: 0 !important; }
@@ -918,6 +919,8 @@
     .oo-player-container .oo-control-bar .oo-control-bar-items-wrapper .oo-control-bar-flex-space {
       -webkit-flex: 1;
       flex: 1; }
+    .oo-player-container .oo-control-bar .oo-control-bar-items-wrapper .oo-live {
+      cursor: default; }
     .oo-player-container .oo-control-bar .oo-control-bar-items-wrapper .oo-live-indicator {
       line-height: 0.5; }
     .oo-player-container .oo-control-bar .oo-control-bar-items-wrapper .oo-live-circle {
@@ -1661,7 +1664,7 @@
   top: 0;
   left: 0;
   right: 0;
-  bottom: 60px;
+  bottom: 30px;
   position: absolute;
   overflow: hidden;
   display: none; }
@@ -1677,7 +1680,7 @@
   top: 0;
   left: 0;
   right: 0;
-  bottom: 60px;
+  bottom: 30px;
   position: absolute;
   display: none; }
 
@@ -1856,7 +1859,7 @@
 .oo-player-container .oo-quality-popover {
   position: absolute;
   background-color: rgba(26, 26, 26, 0.8);
-  bottom: 70px;
+  bottom: 40px;
   box-shadow: rgba(0, 0, 0, 0.2) 0 5px 10px;
   border: 0;
   border-radius: 4px;
@@ -2093,7 +2096,7 @@
       top: 14px; }
 
 .oo-player-container .oo-xsmall .oo-control-bar {
-  height: 42px;
+  height: 21px;
   font-size: 12.6px; }
   .oo-player-container .oo-xsmall .oo-control-bar .oo-control-bar-items-wrapper .oo-control-bar-item {
     font-size: 12.6px;
@@ -2194,16 +2197,16 @@
   margin-right: 7px; }
 
 .oo-player-container .oo-xsmall .oo-ad-overlay.oo-control-bar-visible {
-  bottom: 42px !important; }
+  bottom: 21px !important; }
 
 .oo-player-container .oo-xsmall .oo-up-next-panel-bottom {
-  bottom: 42px; }
+  bottom: 21px; }
 
 .oo-player-container .oo-xsmall .oo-player-skin-plugins {
-  bottom: 42px; }
+  bottom: 21px; }
 
 .oo-player-container .oo-xsmall .oo-player-skin-plugins-click-layer {
-  bottom: 42px; }
+  bottom: 21px; }
 
 .oo-player-container .oo-xsmall .oo-slider-volume {
   width: 140px; }
