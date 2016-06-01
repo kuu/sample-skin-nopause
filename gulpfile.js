@@ -82,10 +82,10 @@ function buildJS(file, hash, watch, ugly, sourcemap, debug) {
 }
 
 // Build All
-gulp.task('build', ['browserify', 'browserify:min', 'sass', 'sass:min', 'assets', 'config', 'pages']);
+gulp.task('build', ['browserify', 'browserify:min', 'sass', 'sass:min', 'config', 'pages']);
 
 // Build Watch
-gulp.task('build:watch', ['watchify', 'watchify:min', 'sass', 'sass:min', 'assets', 'config', 'pages']);
+gulp.task('build:watch', ['watchify', 'watchify:min', 'sass', 'sass:min', 'config', 'pages']);
 
 // Browserify JS
 gulp.task('browserify', function() {
@@ -157,12 +157,6 @@ gulp.task('default', ['watch', 'open']);
 
 // Generate documentation
 gulp.task("docs", shell.task("./node_modules/.bin/jsdoc -c ./jsdoc_conf.json"));
-
-// Assets
-gulp.task('assets', function () {
-  gulp.src(['assets/**/*'])
-    .pipe(gulp.dest('./build/assets'));
-});
 
 // Config
 gulp.task('config', function () {
